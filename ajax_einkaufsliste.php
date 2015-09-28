@@ -20,6 +20,9 @@ if($cent == 0 OR $euro == 0){
 if ($cent < 100){
   echo "Gesammtsumme: ";
 echo $euro .",".$cent;
+?>
+
+<?php
   echo " €";
 }else{
     echo "Gesammtsumme: ";
